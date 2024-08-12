@@ -1,4 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Form Validation with React Hook Form and Zod
+
+This project demonstrates how to use `react-hook-form` with `zod` for form validation in a React application. It includes a form with email, password, password confirmation, account type, and optionally, a company name field.
+
+## Features
+
+- Form validation using `zod`.
+- Controlled form fields managed by `react-hook-form`.
+- Conditional fields based on account type.
+
+## Technologies Used
+
+- `react-hook-form`: A library for managing form state and validation.
+- `zod`: A TypeScript-first schema declaration and validation library.
+- `@hookform/resolvers/zod`: Resolver for integrating `zod` with `react-hook-form`.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or above)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
 ## Getting Started
 
